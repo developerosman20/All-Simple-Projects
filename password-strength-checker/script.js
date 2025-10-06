@@ -1,0 +1,1 @@
+document.getElementById('password').addEventListener('input',function(){let val=this.value;let strength='Zayıf';if(val.length>6&&/[0-9]/.test(val)&&/[A-Z]/.test(val))strength='Orta';if(val.length>8&&/[0-9]/.test(val)&&/[A-Z]/.test(val)&&/[!@#$%^&*]/.test(val))strength='Güçlü';document.getElementById('strength').innerText=strength;});

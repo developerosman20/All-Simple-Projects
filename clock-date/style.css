@@ -1,0 +1,2 @@
+body{display:flex;justify-content:center;align-items:center;height:100vh;transition:background 0.5s;color:white;font-family:sans-serif;}
+.clock{text-align:center;}

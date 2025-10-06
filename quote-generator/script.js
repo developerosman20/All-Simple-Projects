@@ -1,0 +1,1 @@
+const quotes=["Hayat bir yolculuktur.","Başarı cesaret ister.","Bugün, hayatının geri kalanının ilk günüdür."];function generateQuote(){let q=quotes[Math.floor(Math.random()*quotes.length)];document.getElementById('quote').innerText=q;}

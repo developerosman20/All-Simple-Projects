@@ -1,0 +1,1 @@
+function calculateBMI(){let h=document.getElementById('height').value/100;let w=document.getElementById('weight').value;let bmi=(w/(h*h)).toFixed(2);let category='';if(bmi<18.5)category='Zayıf';else if(bmi<24.9)category='Normal';else if(bmi<29.9)category='Kilolu';else category='Obez';document.getElementById('result').innerText='BMI: '+bmi+' - '+category;}

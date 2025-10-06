@@ -1,0 +1,1 @@
+let note=document.getElementById('note');note.value=localStorage.getItem('note')||'';note.addEventListener('input',()=>{localStorage.setItem('note',note.value);});
